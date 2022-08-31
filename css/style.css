@@ -459,7 +459,7 @@ input::placeholder {
 	}
 
 	.text {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 	}
@@ -525,18 +525,22 @@ input::placeholder {
 	.form__block {
 		width: 100%;
 	}
+	.about__btn {
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
 }
 
 @media screen and (max-width: 780px) {
 	.title-decor {
 		display: none
 	}
-
-	.about__btn {
-		text-align: center;
+	.item-date {
+		padding: 5px 0px;
 		margin: 0 auto;
-		margin-top: 50px;
 	}
+
 }
 
 @media screen and (max-width: 680px) {
@@ -556,7 +560,7 @@ input::placeholder {
 	}
 
 	.down {
-		padding-top: 120px;
+		padding-top: 200px;
 		transition: 0.6s;
 	}
 }
@@ -585,7 +589,6 @@ input::placeholder {
 	}
 
 	.travel__content {
-		padding-top: 50px;
-		margin: 0 auto;
+		margin-top: 50px !important;
 	}
 }
